@@ -2,19 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
+    state = { lat: null, errorMessage: '' }
 
-        // only time we do direct assignment to state
-        this.state = {lat: null, errorMessage: ''};
+    componentDidMount() {
         window.navigator.geolocation.getCurrentPosition(
-            (data) => {
-                // aways use setState to change the state
-                this.setState({lat: data.coords.latitude});
-            },
-            (err) => {
-                this.setState({errorMessage: err.message});
-            }
+            (data) => this.setState({lat: data.coords.latitude}),
+            (err) => this.setState({errorMessage: err.message})
         );
     }
 
