@@ -13,7 +13,9 @@ class App extends React.Component {
         );
     }
 
-    render() {
+    // to exemplify that the return can be in a function and
+    // can be put inside a div for example (when called)
+    renderContent() {
         if (this.state.errorMessage && !this.state.lat) {
             return (
                 <div>
@@ -28,6 +30,12 @@ class App extends React.Component {
         }
         return (
                 <Spinner message='Waiting for your permition'></Spinner>
+        );
+    }
+
+    render() {
+        return (
+            this.renderContent()
         );
     }
 }
