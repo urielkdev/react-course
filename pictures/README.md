@@ -24,7 +24,7 @@ https://unsplash.com/developers
 
 how to use:
 create a developer account on the above site and create a project.
-make a request with Axios, like this:
+make a request with Axios, like this: 
 axios.get('https://api.unsplash.com/search/photos', {
     params: {
         query: 'term to search'
@@ -36,3 +36,4 @@ axios.get('https://api.unsplash.com/search/photos', {
 .then((response) => {  // this can be replaced by async function
     console.log(response.data.results);
 });
+from now on it is being done in another way, initializing the axios in ./src/api/unsplash and calling the unsplash in the App
