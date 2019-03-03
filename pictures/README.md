@@ -36,4 +36,4 @@ axios.get('https://api.unsplash.com/search/photos', {
 .then((response) => {  // this can be replaced by async function
     console.log(response.data.results);
 });
-from now on it is being done in another way, initializing the axios in ./src/api/unsplash and calling the unsplash in the App
+in this project it is being done in another way, initializing the axios in ./src/api/unsplash and calling the unsplash in the App

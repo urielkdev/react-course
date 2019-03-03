@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
+import ImageList from './ImageList';
 
 class App extends Component {
     state = { images: [] };
@@ -21,7 +22,7 @@ class App extends Component {
                     // is not mandatory the name of this callback to be onSubmit, 
                     // I used this because it makes sense in this case
                 />
-                {this.state.images.length} images
+                <ImageList images={this.state.images} />
             </div>
         );
     }
