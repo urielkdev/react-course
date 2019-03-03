@@ -33,6 +33,6 @@ axios.get('https://api.unsplash.com/search/photos', {
             Authorization: 'Client-ID YOUR_ACCESS_KEY'
         }
 })
-.then((response) => {
+.then((response) => {  // this can be replaced by async function
     console.log(response.data.results);
 });
