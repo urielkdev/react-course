@@ -4,20 +4,28 @@ import youtube from '../api/youtube';
 import VideoList from './VideoList';
 
 class App extends Component {
-    state = { videos: [] };
+    state = { videos: [], selectedVideo: null };
     
     onTermSubmit = async (term) => {
         const response = await youtube.get('/search', {
-            q: term // q = query
+            params: {
+                q: term // q = query
+            }
         });
         this.setState({ videos: response.data.items });
+    }
+
+    onVideoSelect = (video) => {
+        console.log("from the app " + video);
     }
 
     render() {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit} />
-                <VideoList videos={this.state.videos} />
+                <VideoList videos={this.state.videos} 
+                    onVideoSelect={this.onVideoSelect}
+                />
             </div>
         );
     }
