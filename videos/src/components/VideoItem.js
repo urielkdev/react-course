@@ -16,7 +16,6 @@ const VideoItem = ({video, onVideoSelect}) => {
                     {video.snippet.title}
                 </div>
             </div>
-            {video.snippet.description}
         </div>
     );
 };
