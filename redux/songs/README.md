@@ -1,9 +1,9 @@
 <h1>Organization of Components:</h1>
 <img src="./components_organization.PNG" alt="organization of components"/>
-<h2>Organization with Redux</h2>
-<img src="./organization_with_redux.PNG" alt="organization with Redux"/>
 <h2>Organization without Redux</h2>
 <img src="./organization_without_redux.PNG" alt="organization without Redux"/>
+<h2>Organization with Redux</h2>
+<img src="./organization_with_redux.PNG" alt="organization with Redux"/>
 
 ------------------------------
 
