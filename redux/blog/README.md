@@ -1,3 +1,4 @@
+<h1>Brief description</h1>
 Simple design to practice the use of redux and some tools with the react.
 
 ------------------------------
@@ -5,28 +6,37 @@ Simple design to practice the use of redux and some tools with the react.
 <h1>Organization of Components:</h1>
 <img src="./components_organization.PNG" alt="organization of components"/>
 
+------------------------------
+
 <h1>Used Tools</h1>
 <img src="./tools.PNG" alt="used tools"/>
 
 ------------------------------
 
-Redux, React-Redux and Redux-Thunk
-command npm install --save redux react-redux redux-thunk
+<h1>Redux, React-Redux and Redux-Thunk</h1>
+<h3>Command:</h3>
+npm install --save redux react-redux redux-thunk
+
+<h2>Redux-Thunk:</h2>
+It's a middleware that change some rules of redux in the middle of dispatch and reducers, in this case it is used to make API call, without this I'm get a error because of the async call.
+<img src="./redux-thunk-diagram.PNG" alt="used tools"/>
+<h3>Documentation:</h3>
+Give a look in the src folder: <br>
+https://github.com/reduxjs/redux-thunk
 
 ------------------------------
 
-OBS: The node_modules folder is listed in .gitignore, so it is not in git because it is very heavy. 
+<h1>OBS:</h1> 
+node_modules folder is listed in .gitignore, so it is not in git because it is very heavy. 
 Additional libraries, other than those created by create-react-app, are listed below, if necessary, use the command lines to install them in the node_module folder (npm commands listed below as well).
 
 ------------------------------
 
-Semantic UI:
-Is a library used to improve css production, comes with cool styles
-
-documentation:
+<h1> Semantic UI:</h1>
+It's a library used to improve css production, comes with cool styles
+<h3>Documentation:</h3>
 https://semantic-ui.com/
-
-how to use:
+<h3>How to use:</h3>
 go to this site: https://cdnjs.com/libraries/semantic-ui and get the 'semantic.min.css' link
 add this link in the file ../public/index.html in a tag to be able to use it, like this:
 ```html
@@ -35,6 +45,15 @@ add this link in the file ../public/index.html in a tag to be able to use it, li
 
 ------------------------------
 
-Axios library:
-Used to make the API Request.
-command: npm install --save axios
+<h1>Axios library:</h1>
+It's used to make the API Request.
+<h3>Command:</h3>
+npm install --save axios
+```
+
+------------------------------
+
+<h1>JSONPlaceholder API:</h1>
+It's a API to get fake datas in JSON format, in this projec will be used fake blog posts and fake users.
+<h3>Documentation:</h3> 
+https://jsonplaceholder.typicode.com/
