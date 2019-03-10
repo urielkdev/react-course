@@ -39,6 +39,7 @@ https://semantic-ui.com/
 <h3>How to use:</h3>
 go to this site: https://cdnjs.com/libraries/semantic-ui and get the 'semantic.min.css' link
 add this link in the file ../public/index.html in a tag to be able to use it, like this:
+
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
 ```
@@ -49,7 +50,6 @@ add this link in the file ../public/index.html in a tag to be able to use it, li
 It's used to make the API Request.
 <h3>Command:</h3>
 npm install --save axios
-```
 
 ------------------------------
 
