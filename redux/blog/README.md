@@ -60,3 +60,12 @@ npm install --save axios
 It's a API to get fake datas in JSON format, in this projec will be used fake blog posts and fake users.
 <h3>Documentation:</h3> 
 https://jsonplaceholder.typicode.com/
+
+------------------------------
+
+<h1>Lodash API:</h1>
+It's an API with many functions to help in programming. In this case we used memoize function to manage how many times the fetch user calls the jsonPlaceholder, in the ./src/actions, without this function, the fetch function was calling jsonPlaceholder with the same params, 10 times the request with param user == 1 for example.
+<h3>Command:</h3>
+npm install --save lodash
+<h3>Documentation:</h3> 
+https://lodash.com/
