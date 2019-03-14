@@ -65,6 +65,7 @@ https://jsonplaceholder.typicode.com/
 
 <h1>Lodash API:</h1>
 It's an API with many functions to help in programming. In this case we used memoize function to manage how many times the fetch user calls the jsonPlaceholder, in the ./src/actions, without this function, the fetch function was calling jsonPlaceholder with the same params, 10 times the request with param user == 1 for example.
+>>> After a little thought, it was decided not to use this option, then a more 'global' function was done that would work better in future cases, so was created a fetchPostsAndUsers action. Now, the lodash API is used to find the unique user Ids.
 <h3>Command:</h3>
 npm install --save lodash
 <h3>Documentation:</h3> 
