@@ -1,7 +1,7 @@
 Project to create and watch streams, made to learn and improve skills in React.
 
 
-<h1>Pages scheme</h1>
+<h1>App scheme</h1>
 <h3>General:</h3>
 <img src="./general-diagram.PNG" alt="general diagram"/>
 <h3>Logged in/Logged out:</h3>
@@ -45,6 +45,7 @@ add a script tag in ../public/index.html:
 ------------------------------
 
 <h1>React Router:</h1>
+
 ```bash
 npm install --save react-router-dom@next
 ```
