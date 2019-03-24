@@ -1,3 +1,10 @@
+
+<h2>Router paths scheme</h2>
+<img src="./path-scheme.PNG" alt="router paths"/>
+<h2>Redux diagram</h2>
+<img src="./redux-diagram.PNG" alt="Redux diagram"/>
+
+
 npm install --save react-router-dom@next
 versão normal ta bugada, então tem que botar o @next pra pegar a versão beta
 
@@ -29,3 +36,9 @@ adicionar uma script tag em ../public/index.html:
 ```html
 <script src="https://apis.google.com/js/api.js"></script>
 `
+
+------------------------------
+
+Redux and React-Redux
+
+command: npm install --save redux react-redux
