@@ -1,17 +1,9 @@
-
-<h2>Router paths scheme</h2>
-<img src="./path-scheme.PNG" alt="router paths"/>
 <h2>Redux diagram</h2>
 <img src="./redux-diagram.PNG" alt="Redux diagram"/>
 
-
-npm install --save react-router-dom@next
-versão normal ta bugada, então tem que botar o @next pra pegar a versão beta
-
-
 ------------------------------
 
-<h1> Semantic UI:</h1>
+<h1>Semantic UI:</h1>
 It's a library used to improve css production, comes with cool styles
 <h3>Documentation:</h3>
 https://semantic-ui.com/
@@ -21,30 +13,48 @@ add this link in the file ../public/index.html in a tag to be able to use it, li
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
-`
+```
 
 ------------------------------
 
-OAuth google login
+<h1>OAuth google login:</h1>
 <h3>Documentation:</h3>
 https://developers.google.com/api-client-library/javascript/reference/referencedocs
 <h3>How to use:</h3>
-https://console.developers.google.com/
-Criar projeto, ir em credenciais, ir na tela de consentimento OAuth e criar, dps voltar para credenciais e criar credencial id do cliente OAuth, selecionar aplicativo web e colocar o link do site, no caso é http://localhost:3000
-adicionar uma script tag em ../public/index.html:
+Go to: https://console.developers.google.com/.
+Create project, go into credentials, go on the OAuth consent screen and create, then go back to credentials and create credential OAuth client id, select web application and put link from website, in case it is http://localhost:3000
+add a script tag in ../public/index.html:
 
 ```html
 <script src="https://apis.google.com/js/api.js"></script>
-`
+```
 
 ------------------------------
 
-Redux and React-Redux
+<h1>React Router:</h1>
+npm install --save react-router-dom@next
+The normal version is bugged, then you have to @next to get the beta version
+
+<h2>Router paths scheme</h2>
+<img src="./path-scheme.PNG" alt="router paths"/>
+
+------------------------------
+
+<h1>Redux and React-Redux:</h1>
 
 command: npm install --save redux react-redux
 
 ------------------------------
 
-Redux DevTools
+<h1>Redux Form:</h1>
+
+command: npm install redux-form@8.1.0
+using this version because the current one apparently has some bugs
+<img src="./redux-diagram.PNG" alt="Redux Form scheme"/>
+
+------------------------------
+
+<h1>Redux DevTools:</h1>
+Help with debugging the application, helping with the state for example
 <h3>Documentation:</h3>
 https://github.com/zalmoxisus/redux-devtools-extension
