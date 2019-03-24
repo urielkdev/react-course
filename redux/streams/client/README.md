@@ -42,3 +42,9 @@ adicionar uma script tag em ../public/index.html:
 Redux and React-Redux
 
 command: npm install --save redux react-redux
+
+------------------------------
+
+Redux DevTools
+<h3>Documentation:</h3>
+https://github.com/zalmoxisus/redux-devtools-extension
