@@ -67,6 +67,7 @@ command: npm install --save redux react-redux
 ------------------------------
 
 <h1>Redux Form:</h1>
+
 ```bash
 command: npm install redux-form@8.1.0
 ```
