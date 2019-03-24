@@ -1,5 +1,18 @@
-<h2>Redux diagram</h2>
-<img src="./redux-diagram.PNG" alt="Redux diagram"/>
+Project to create and watch streams, made to learn and improve skills in React.
+
+
+<h1>Pages scheme</h1>
+<h3>General:</h3>
+<img src="./general-diagram.PNG" alt="general diagram"/>
+<h3>Logged in/Logged out:</h3>
+<img src="./logged-in-logged-out-scheme.PNG" alt="logged in or logged out scheme"/>
+<h3>Pages:</h3>
+<img src="./index-page.PNG" alt="index page"/>
+<img src="./show-page.PNG" alt="show page"/>
+<img src="./index-page-logged-in.PNG" alt="index page logged in"/>
+<img src="./create-stream-page.PNG" alt="create page"/>
+<img src="./edit-page.PNG" alt="edit page"/>
+<img src="./delete-page.PNG" alt="delete page"/>
 
 ------------------------------
 
@@ -32,7 +45,9 @@ add a script tag in ../public/index.html:
 ------------------------------
 
 <h1>React Router:</h1>
+```bash
 npm install --save react-router-dom@next
+```
 The normal version is bugged, then you have to @next to get the beta version
 
 <h2>Router paths scheme</h2>
@@ -42,13 +57,19 @@ The normal version is bugged, then you have to @next to get the beta version
 
 <h1>Redux and React-Redux:</h1>
 
+```bash
 command: npm install --save redux react-redux
+```
+<h2>Redux diagram</h2>
+<img src="./redux-diagram.PNG" alt="Redux diagram"/>
 
 ------------------------------
 
 <h1>Redux Form:</h1>
-
+```bash
 command: npm install redux-form@8.1.0
+```
+<br>
 using this version because the current one apparently has some bugs
 <img src="./redux-diagram.PNG" alt="Redux Form scheme"/>
 
