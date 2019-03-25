@@ -67,12 +67,15 @@ command: npm install --save redux react-redux
 ------------------------------
 
 <h1>Redux Form:</h1>
+<h3>Documentation:</h3>
+https://redux-form.com
 
 ```bash
 command: npm install redux-form@8.1.0
 ```
+
 <br>
-using this version because the current one apparently has some bugs
+Using this version because the current one apparently has some bugs
 <img src="./redux-diagram.PNG" alt="Redux Form scheme"/>
 
 ------------------------------
