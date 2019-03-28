@@ -47,7 +47,7 @@ add a script tag in ../public/index.html:
 <h1>React Router:</h1>
 
 ```bash
-npm install --save react-router-dom@next
+command: npm install --save react-router-dom@next
 ```
 The normal version is bugged, then you have to @next to get the beta version
 
@@ -56,11 +56,13 @@ The normal version is bugged, then you have to @next to get the beta version
 
 ------------------------------
 
-<h1>Redux and React-Redux:</h1>
+<h1>Redux, React-Redux and Redux-Thunk</h1>
+<h3>Command:</h3>
 
 ```bash
-command: npm install --save redux react-redux
+npm install --save redux react-redux redux-thunk
 ```
+
 <h2>Redux diagram</h2>
 <img src="./redux-diagram.PNG" alt="Redux diagram"/>
 
@@ -84,3 +86,20 @@ Using this version because the current one apparently has some bugs
 Help with debugging the application, helping with the state for example
 <h3>Documentation:</h3>
 https://github.com/zalmoxisus/redux-devtools-extension
+
+------------------------------
+
+<h1>JSON server:</h1>
+Start the server in api folder with: npm start
+
+------------------------------
+
+<h1>Axios library:</h1>
+It's used to make the API Request.
+<h3>Command:</h3>
+
+```bash
+npm install --save axios
+```
+
+------------------------------
