@@ -12,6 +12,7 @@ class App extends Component {
     render() {
         return (
             <div className="ui container">
+                {/* using Router because we want to navigate using the 'history' in action creators */}
                 <Router history={history}>
                     <div>
                         <Header />
