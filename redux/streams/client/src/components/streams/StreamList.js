@@ -9,7 +9,6 @@ class StreamList extends Component {
     }
 
     renderAdminButtons(stream) {
-        console.log(this.props);
         if (stream.userId === this.props.currentUserId) {
             return (
                 <div className="right floated content">
@@ -42,7 +41,6 @@ class StreamList extends Component {
     }
 
     renderCreateButton() {
-        console.log(this.props.isSignedIn);
         if (this.props.isSignedIn) {
             return (
                 <div style={{textAlign: "right"}}>
@@ -59,7 +57,7 @@ class StreamList extends Component {
     render() {
         return (
             <div>
-                <h2>Header</h2>
+                <h2>Streams</h2>
                 <div className="ui celled list">
                     {this.renderList()}
                 </div>
