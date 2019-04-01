@@ -103,3 +103,13 @@ npm install --save axios
 ```
 
 ------------------------------
+
+<h1>Portals:</h1>
+Is used to relate a component directly to another component, for example, it was used here to create the modal directly in the X file, even when it was created when we called the delete button.
+
+<h3>How to use:</h3>
+In ../public/index.html, add a div, like:
+
+```html
+<div id="modal"></div>
+```
