@@ -113,3 +113,4 @@ In ../public/index.html, add a div, like:
 ```html
 <div id="modal"></div>
 ```
+And declare a Portal, like in ./components/Modal.js
