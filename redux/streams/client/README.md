@@ -117,7 +117,7 @@ Start the server in api folder with: npm start
 
 ------------------------------
 
-<h1>Node-Media-Server:</h1>
+<h1>Node-Media-Server and flv js:</h1>
 Server to support the streaming.
 
 <h3>How to use:</h3>
@@ -137,6 +137,11 @@ After thath, replace the test script in package.json with:
 "start": "node index.js"
 ```
 
+Look "From OBS" section in documentation
+The accessing the live stream will be by flv js(look the documentation).
+In this project I will use OBS(https://obsproject.com/) to stream.
+
 <h3>Documentation:</h3>
 https://github.com/illuspas/Node-Media-Server
+https://www.npmjs.com/package/flv
 
