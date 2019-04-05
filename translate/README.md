@@ -9,6 +9,8 @@ Simple design to learn about React Context.
 <img src="./diagram_with_props.PNG" alt="Diagram with props."/>
 <h2>Diagram if use Context:</h2>
 <img src="./diagram_with_context.PNG" alt="Diagram with context."/>
+<h2>Ways to use Context:</h2>
+<img src="./context_object.PNG" alt="Diagram with context."/>
 
 ------------------------------
 
